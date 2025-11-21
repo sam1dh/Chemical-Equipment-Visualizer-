@@ -40,7 +40,7 @@ A **hybrid web and desktop application** for visualizing and analyzing chemical 
 ![Dashboard](screencapture-whimsical-souffle-455c6c-netlify-app-2025-11-21-21_54_04.png)
 
 ### Upload Interface
-![Upload](Screenshot 2025-11-21 215213.png)
+![Upload](screenshot-2025-11-21-215213.png)
 
 ## 🛠️ Tech Stack
 
