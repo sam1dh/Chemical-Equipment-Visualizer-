@@ -4,7 +4,6 @@
 ![Django](https://img.shields.io/badge/Django-4.2-green.svg)
 ![React](https://img.shields.io/badge/React-18.2-61dafb.svg)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A **hybrid web and desktop application** for visualizing and analyzing chemical equipment parameters. Built with Django REST Framework backend, React web frontend, and PyQt5 desktop application with Matplotlib visualizations.
 
@@ -62,7 +61,7 @@ A **hybrid web and desktop application** for visualizing and analyzing chemical 
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate.ps1  # On Windows: venv\Scripts\activate.ps1
+source venv/bin/activate  # On Windows: venv\Scripts\activate.ps1
 pip install -r requirements.txt
 cd chemical_equipment
 python manage.py migrate
@@ -208,5 +207,4 @@ chemical-equipment-visualizer/
 ├── .gitignore
 ├── README.md
 └── SETUP.md                    # Detailed setup guide
-```
 ```
