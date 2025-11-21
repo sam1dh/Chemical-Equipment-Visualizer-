@@ -16,7 +16,6 @@ A **hybrid web and desktop application** for visualizing and analyzing chemical 
 - **Chart.js visualizations** for equipment analysis
 - **CSV upload** with drag & drop
 - **PDF report generation**
-- **Browser-based** - no installation required
 
 ### 🖥️ Desktop Application (PyQt5)
 - **Native desktop experience** for Windows, macOS, Linux
@@ -36,11 +35,14 @@ A **hybrid web and desktop application** for visualizing and analyzing chemical 
 
 ## 📸 Screenshots
 
+### Upload Interface
+![Upload](screenshot-2025-11-21-215213.png)
+
 ### Dashboard View
 ![Dashboard](screencapture-whimsical-souffle-455c6c-netlify-app-2025-11-21-21_54_04.png)
 
-### Upload Interface
-![Upload](screenshot-2025-11-21-215213.png)
+### Desktop View
+![Desktop](Desktop.png)
 
 ## 🛠️ Tech Stack
 
@@ -54,42 +56,16 @@ A **hybrid web and desktop application** for visualizing and analyzing chemical 
 | **PDF Generation** | ReportLab | Professional reports |
 | **HTTP Client** | Requests | Desktop-to-API communication |
 
-## 📋 Prerequisites
-
-- Python 3.8 or higher
-- Node.js 16+ and npm
-- Git
-- pip and virtualenv
-
-## 🚀 Quick Start
-
-### Option 1: Automated Setup (Recommended)
-
-**Linux/Mac:**
-```bash
-git clone https://github.com/yourusername/chemical-equipment-visualizer.git
-cd chemical-equipment-visualizer
-chmod +x setup.sh
-./setup.sh
-```
-
-**Windows:**
-```bash
-git clone https://github.com/yourusername/chemical-equipment-visualizer.git
-cd chemical-equipment-visualizer
-setup.bat
-```
-
-### Option 2: Manual Setup
+## 🚀 Project Setup
 
 #### 1️⃣ Backend (Django)
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate.ps1  # On Windows: venv\Scripts\activate.ps1
 pip install -r requirements.txt
+cd chemical_equipment
 python manage.py migrate
-python manage.py createsuperuser
 python manage.py runserver
 ```
 
@@ -104,7 +80,7 @@ npm start
 ```bash
 cd desktop
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate.ps1
 pip install -r requirements.txt
 python main.py
 ```
