@@ -1,4 +1,3 @@
-# Chemical-Equipment-Visualizer
 # Chemical Equipment Parameter Visualizer 🧪
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
@@ -38,10 +37,10 @@ A **hybrid web and desktop application** for visualizing and analyzing chemical 
 ## 📸 Screenshots
 
 ### Dashboard View
-![Dashboard](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)
+![Dashboard](screencapture-whimsical-souffle-455c6c-netlify-app-2025-11-21-21_54_04.png)
 
 ### Upload Interface
-![Upload](https://via.placeholder.com/800x400?text=Upload+Screenshot)
+![Upload](Screenshot 2025-11-21 215213.png)
 
 ## 🛠️ Tech Stack
 
@@ -227,86 +226,11 @@ chemical-equipment-visualizer/
 ├── desktop/                    # PyQt5 Desktop App
 │   ├── main.py                # Main application
 │   ├── requirements.txt
-│   ├── run.sh                 # Linux/Mac launcher
-│   └── run.bat                # Windows launcher
+│   
+│   
 ├── sample_equipment_data.csv   # Test data
 ├── .gitignore
 ├── README.md
 └── SETUP.md                    # Detailed setup guide
 ```
-
-## 🧪 Testing
-
-### Backend Tests
-```bash
-cd backend
-python manage.py test
 ```
-
-### Frontend Tests
-```bash
-cd frontend
-npm test
-```
-
-## 🐛 Troubleshooting
-
-### CORS Issues
-Ensure `django-cors-headers` is properly configured in `settings.py`
-
-### Port Conflicts
-- Backend: `python manage.py runserver 8001`
-- Frontend: `PORT=3001 npm start`
-
-### Database Reset
-```bash
-rm db.sqlite3
-python manage.py migrate
-python manage.py createsuperuser
-```
-
-## 📈 Future Enhancements
-
-- [ ] Real-time data updates with WebSockets
-- [ ] Advanced analytics and ML predictions
-- [ ] Multi-user support with role-based access
-- [ ] Export to Excel and JSON formats
-- [ ] Mobile app version
-- [ ] Docker containerization
-- [ ] CI/CD pipeline
-- [ ] Unit test coverage > 80%
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- Your Name - [GitHub](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- Django REST Framework documentation
-- React documentation
-- Pandas community
-- Tailwind CSS team
-
-## 📞 Contact
-
-- Email: your.email@example.com
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Project Link: [https://github.com/yourusername/chemical-equipment-visualizer](https://github.com/yourusername/chemical-equipment-visualizer)
-
----
-
-**Made with ❤️ for Chemical Engineering Data Analysis**
